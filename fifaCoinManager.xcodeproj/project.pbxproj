@@ -17,6 +17,7 @@
 		AC3F6FA924C634C000CEA630 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AC3F6FA724C634C000CEA630 /* LaunchScreen.storyboard */; };
 		AC3F6FB424C634C000CEA630 /* fifaCoinManagerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC3F6FB324C634C000CEA630 /* fifaCoinManagerTests.swift */; };
 		AC3F6FBF24C634C000CEA630 /* fifaCoinManagerUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC3F6FBE24C634C000CEA630 /* fifaCoinManagerUITests.swift */; };
+		AC3F6FCD24C6352300CEA630 /* .gitignore in Resources */ = {isa = PBXBuildFile; fileRef = AC3F6FCC24C6352300CEA630 /* .gitignore */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,6 +54,7 @@
 		AC3F6FBA24C634C000CEA630 /* fifaCoinManagerUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = fifaCoinManagerUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		AC3F6FBE24C634C000CEA630 /* fifaCoinManagerUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = fifaCoinManagerUITests.swift; sourceTree = "<group>"; };
 		AC3F6FC024C634C000CEA630 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AC3F6FCC24C6352300CEA630 /* .gitignore */ = {isa = PBXFileReference; lastKnownFileType = text; path = .gitignore; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -83,6 +85,7 @@
 		AC3F6F8B24C634BF00CEA630 = {
 			isa = PBXGroup;
 			children = (
+				AC3F6FCC24C6352300CEA630 /* .gitignore */,
 				AC3F6F9624C634BF00CEA630 /* fifaCoinManager */,
 				AC3F6FB224C634C000CEA630 /* fifaCoinManagerTests */,
 				AC3F6FBD24C634C000CEA630 /* fifaCoinManagerUITests */,
@@ -238,6 +241,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				AC3F6FCD24C6352300CEA630 /* .gitignore in Resources */,
 				AC3F6FA924C634C000CEA630 /* LaunchScreen.storyboard in Resources */,
 				AC3F6FA624C634C000CEA630 /* Assets.xcassets in Resources */,
 				AC3F6FA124C634BF00CEA630 /* Main.storyboard in Resources */,
