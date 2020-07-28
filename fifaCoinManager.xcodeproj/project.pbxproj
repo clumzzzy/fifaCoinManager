@@ -18,6 +18,7 @@
 		AC3F6FB424C634C000CEA630 /* fifaCoinManagerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC3F6FB324C634C000CEA630 /* fifaCoinManagerTests.swift */; };
 		AC3F6FBF24C634C000CEA630 /* fifaCoinManagerUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC3F6FBE24C634C000CEA630 /* fifaCoinManagerUITests.swift */; };
 		AC3F6FCD24C6352300CEA630 /* .gitignore in Resources */ = {isa = PBXBuildFile; fileRef = AC3F6FCC24C6352300CEA630 /* .gitignore */; };
+		ACD4ECD924D076D6000736BD /* icons8-calculator-50.png in Resources */ = {isa = PBXBuildFile; fileRef = ACD4ECD824D076D6000736BD /* icons8-calculator-50.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -55,6 +56,7 @@
 		AC3F6FBE24C634C000CEA630 /* fifaCoinManagerUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = fifaCoinManagerUITests.swift; sourceTree = "<group>"; };
 		AC3F6FC024C634C000CEA630 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		AC3F6FCC24C6352300CEA630 /* .gitignore */ = {isa = PBXFileReference; lastKnownFileType = text; path = .gitignore; sourceTree = "<group>"; };
+		ACD4ECD824D076D6000736BD /* icons8-calculator-50.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "icons8-calculator-50.png"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -86,6 +88,7 @@
 			isa = PBXGroup;
 			children = (
 				AC3F6FCC24C6352300CEA630 /* .gitignore */,
+				ACD4ECD824D076D6000736BD /* icons8-calculator-50.png */,
 				AC3F6F9624C634BF00CEA630 /* fifaCoinManager */,
 				AC3F6FB224C634C000CEA630 /* fifaCoinManagerTests */,
 				AC3F6FBD24C634C000CEA630 /* fifaCoinManagerUITests */,
@@ -243,6 +246,7 @@
 			files = (
 				AC3F6FCD24C6352300CEA630 /* .gitignore in Resources */,
 				AC3F6FA924C634C000CEA630 /* LaunchScreen.storyboard in Resources */,
+				ACD4ECD924D076D6000736BD /* icons8-calculator-50.png in Resources */,
 				AC3F6FA624C634C000CEA630 /* Assets.xcassets in Resources */,
 				AC3F6FA124C634BF00CEA630 /* Main.storyboard in Resources */,
 			);

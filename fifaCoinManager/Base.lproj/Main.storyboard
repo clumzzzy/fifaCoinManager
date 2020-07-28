@@ -1,22 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="16097" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
-    <device id="retina6_1" orientation="portrait" appearance="light"/>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="16097.2" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait" appearance="light"/>
     <dependencies>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="16087"/>
         <capability name="Safe area layout guides" minToolsVersion="9.0"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <scenes>
-        <!--Item-->
-        <scene sceneID="Hq0-ZQ-ZDH">
-            <objects>
-                <tableViewController id="otp-bZ-08Q" sceneMemberID="viewController">
-                    <tabBarItem key="tabBarItem" title="Item" id="agO-Jb-eQl"/>
-                </tableViewController>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="aE2-Md-Fyi" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
-            </objects>
-            <point key="canvasLocation" x="1015.9420289855074" y="441.96428571428572"/>
-        </scene>
         <!--Tab Bar Controller-->
         <scene sceneID="dal-9G-Gfn">
             <objects>
@@ -28,7 +18,6 @@
                     </tabBar>
                     <connections>
                         <segue destination="lOg-EC-EzW" kind="relationship" relationship="viewControllers" id="B1a-U6-RJC"/>
-                        <segue destination="otp-bZ-08Q" kind="relationship" relationship="viewControllers" id="FjC-u3-uNZ"/>
                     </connections>
                 </tabBarController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="7dV-y1-PIj" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
@@ -40,28 +29,26 @@
             <objects>
                 <viewController id="lOg-EC-EzW" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="Lcy-lH-R9i">
-                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <toolbar opaque="NO" clearsContextBeforeDrawing="NO" contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="xfp-0O-ydK">
-                                <rect key="frame" x="0.0" y="44" width="414" height="44"/>
-                                <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMinY="YES"/>
+                            <toolbar opaque="NO" clearsContextBeforeDrawing="NO" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="xfp-0O-ydK">
+                                <rect key="frame" x="0.0" y="0.0" width="375" height="55"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="55" id="dSo-SD-edh"/>
+                                </constraints>
                                 <items>
-                                    <barButtonItem image="plus.slash.minus" catalog="system" style="plain" id="Zlo-XA-Ydk"/>
+                                    <barButtonItem title="calcilator" image="icons8-calculator-50.png" landscapeImage="calcIcon" largeContentSizeImage="icons8-calculator-100.png" style="plain" id="Zlo-XA-Ydk"/>
                                     <barButtonItem style="plain" systemItem="flexibleSpace" id="TCy-GO-eol"/>
-                                    <barButtonItem image="gear" catalog="system" style="plain" id="b0R-Sy-YZj"/>
                                 </items>
                             </toolbar>
-                            <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" fixedFrame="YES" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" rowHeight="54" translatesAutoresizingMaskIntoConstraints="NO" id="RuP-5o-l2A">
-                                <rect key="frame" x="0.0" y="195" width="414" height="54"/>
-                                <autoresizingMask key="autoresizingMask"/>
-                                <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="RuP-5o-l2A" id="UZB-8v-5iz">
-                                    <rect key="frame" x="0.0" y="0.0" width="414" height="54"/>
-                                    <autoresizingMask key="autoresizingMask"/>
-                                </tableViewCellContentView>
-                            </tableViewCell>
                         </subviews>
                         <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                        <constraints>
+                            <constraint firstItem="xfp-0O-ydK" firstAttribute="top" secondItem="jYu-pe-i7C" secondAttribute="top" id="J6g-4t-Qkj"/>
+                            <constraint firstItem="xfp-0O-ydK" firstAttribute="leading" secondItem="jYu-pe-i7C" secondAttribute="leading" id="Mh5-yZ-MZW"/>
+                            <constraint firstItem="xfp-0O-ydK" firstAttribute="centerX" secondItem="Lcy-lH-R9i" secondAttribute="centerX" id="rVp-Xs-vz3"/>
+                        </constraints>
                         <viewLayoutGuide key="safeArea" id="jYu-pe-i7C"/>
                     </view>
                     <tabBarItem key="tabBarItem" title="Item" id="GAe-5i-j97"/>
@@ -72,7 +59,8 @@
         </scene>
     </scenes>
     <resources>
-        <image name="gear" catalog="system" width="128" height="119"/>
-        <image name="plus.slash.minus" catalog="system" width="128" height="115"/>
+        <image name="calcIcon" width="128" height="128"/>
+        <image name="icons8-calculator-100.png" width="128" height="128"/>
+        <image name="icons8-calculator-50.png" width="50" height="50"/>
     </resources>
 </document>
