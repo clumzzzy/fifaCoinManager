@@ -18,7 +18,6 @@
 		AC3F6FB424C634C000CEA630 /* fifaCoinManagerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC3F6FB324C634C000CEA630 /* fifaCoinManagerTests.swift */; };
 		AC3F6FBF24C634C000CEA630 /* fifaCoinManagerUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC3F6FBE24C634C000CEA630 /* fifaCoinManagerUITests.swift */; };
 		AC3F6FCD24C6352300CEA630 /* .gitignore in Resources */ = {isa = PBXBuildFile; fileRef = AC3F6FCC24C6352300CEA630 /* .gitignore */; };
-		ACD4ECD924D076D6000736BD /* icons8-calculator-50.png in Resources */ = {isa = PBXBuildFile; fileRef = ACD4ECD824D076D6000736BD /* icons8-calculator-50.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -56,7 +55,6 @@
 		AC3F6FBE24C634C000CEA630 /* fifaCoinManagerUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = fifaCoinManagerUITests.swift; sourceTree = "<group>"; };
 		AC3F6FC024C634C000CEA630 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		AC3F6FCC24C6352300CEA630 /* .gitignore */ = {isa = PBXFileReference; lastKnownFileType = text; path = .gitignore; sourceTree = "<group>"; };
-		ACD4ECD824D076D6000736BD /* icons8-calculator-50.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "icons8-calculator-50.png"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -87,12 +85,11 @@
 		AC3F6F8B24C634BF00CEA630 = {
 			isa = PBXGroup;
 			children = (
-				AC3F6FCC24C6352300CEA630 /* .gitignore */,
-				ACD4ECD824D076D6000736BD /* icons8-calculator-50.png */,
 				AC3F6F9624C634BF00CEA630 /* fifaCoinManager */,
 				AC3F6FB224C634C000CEA630 /* fifaCoinManagerTests */,
 				AC3F6FBD24C634C000CEA630 /* fifaCoinManagerUITests */,
 				AC3F6F9524C634BF00CEA630 /* Products */,
+				AC8954C924E489C6004921B1 /* Supporting files */,
 			);
 			sourceTree = "<group>";
 		};
@@ -109,15 +106,7 @@
 		AC3F6F9624C634BF00CEA630 /* fifaCoinManager */ = {
 			isa = PBXGroup;
 			children = (
-				AC3F6F9724C634BF00CEA630 /* AppDelegate.swift */,
-				AC3F6F9924C634BF00CEA630 /* SceneDelegate.swift */,
-				AC3F6F9B24C634BF00CEA630 /* FirstViewController.swift */,
-				AC3F6F9D24C634BF00CEA630 /* SecondViewController.swift */,
-				AC3F6F9F24C634BF00CEA630 /* Main.storyboard */,
-				AC3F6FA524C634C000CEA630 /* Assets.xcassets */,
-				AC3F6FA724C634C000CEA630 /* LaunchScreen.storyboard */,
-				AC3F6FAA24C634C000CEA630 /* Info.plist */,
-				AC3F6FA224C634BF00CEA630 /* fifaCoinManager.xcdatamodeld */,
+				AC8954C824E48997004921B1 /* Application */,
 			);
 			path = fifaCoinManager;
 			sourceTree = "<group>";
@@ -138,6 +127,54 @@
 				AC3F6FC024C634C000CEA630 /* Info.plist */,
 			);
 			path = fifaCoinManagerUITests;
+			sourceTree = "<group>";
+		};
+		AC8954C524E48974004921B1 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				AC3F6F9724C634BF00CEA630 /* AppDelegate.swift */,
+				AC3F6F9924C634BF00CEA630 /* SceneDelegate.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		AC8954C624E48985004921B1 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				AC3F6F9F24C634BF00CEA630 /* Main.storyboard */,
+				AC3F6FA724C634C000CEA630 /* LaunchScreen.storyboard */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		AC8954C724E4898A004921B1 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				AC3F6F9D24C634BF00CEA630 /* SecondViewController.swift */,
+				AC3F6F9B24C634BF00CEA630 /* FirstViewController.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		AC8954C824E48997004921B1 /* Application */ = {
+			isa = PBXGroup;
+			children = (
+				AC8954C724E4898A004921B1 /* Model */,
+				AC8954C624E48985004921B1 /* View */,
+				AC8954C524E48974004921B1 /* Controller */,
+			);
+			path = Application;
+			sourceTree = "<group>";
+		};
+		AC8954C924E489C6004921B1 /* Supporting files */ = {
+			isa = PBXGroup;
+			children = (
+				AC3F6FAA24C634C000CEA630 /* Info.plist */,
+				AC3F6FA224C634BF00CEA630 /* fifaCoinManager.xcdatamodeld */,
+				AC3F6FA524C634C000CEA630 /* Assets.xcassets */,
+				AC3F6FCC24C6352300CEA630 /* .gitignore */,
+			);
+			path = "Supporting files";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -246,7 +283,6 @@
 			files = (
 				AC3F6FCD24C6352300CEA630 /* .gitignore in Resources */,
 				AC3F6FA924C634C000CEA630 /* LaunchScreen.storyboard in Resources */,
-				ACD4ECD924D076D6000736BD /* icons8-calculator-50.png in Resources */,
 				AC3F6FA624C634C000CEA630 /* Assets.xcassets in Resources */,
 				AC3F6FA124C634BF00CEA630 /* Main.storyboard in Resources */,
 			);
@@ -452,7 +488,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 2GTZ75QKN6;
-				INFOPLIST_FILE = fifaCoinManager/Info.plist;
+				INFOPLIST_FILE = "/Users/artem/Documents/GitHub/fifaCoinManager/Supporting files/Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -471,7 +507,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 2GTZ75QKN6;
-				INFOPLIST_FILE = fifaCoinManager/Info.plist;
+				INFOPLIST_FILE = "/Users/artem/Documents/GitHub/fifaCoinManager/Supporting files/Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
