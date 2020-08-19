@@ -7,10 +7,13 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		AC13E5E024EDB048002A3E1E /* MainInfoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC13E5DF24EDB048002A3E1E /* MainInfoViewController.swift */; };
+		AC13E5E224EDB0AB002A3E1E /* AccountsTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC13E5E124EDB0AB002A3E1E /* AccountsTableViewController.swift */; };
+		AC13E5E424EDB0DA002A3E1E /* CalculatorViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC13E5E324EDB0DA002A3E1E /* CalculatorViewController.swift */; };
+		AC13E5E624EDB112002A3E1E /* SettingsTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC13E5E524EDB112002A3E1E /* SettingsTableViewController.swift */; };
+		AC13E5E824EDB15E002A3E1E /* FullAccountCollectionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC13E5E724EDB15E002A3E1E /* FullAccountCollectionViewController.swift */; };
 		AC3F6F9824C634BF00CEA630 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC3F6F9724C634BF00CEA630 /* AppDelegate.swift */; };
 		AC3F6F9A24C634BF00CEA630 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC3F6F9924C634BF00CEA630 /* SceneDelegate.swift */; };
-		AC3F6F9C24C634BF00CEA630 /* FirstViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC3F6F9B24C634BF00CEA630 /* FirstViewController.swift */; };
-		AC3F6F9E24C634BF00CEA630 /* SecondViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC3F6F9D24C634BF00CEA630 /* SecondViewController.swift */; };
 		AC3F6FA124C634BF00CEA630 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AC3F6F9F24C634BF00CEA630 /* Main.storyboard */; };
 		AC3F6FA424C634BF00CEA630 /* fifaCoinManager.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = AC3F6FA224C634BF00CEA630 /* fifaCoinManager.xcdatamodeld */; };
 		AC3F6FA624C634C000CEA630 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AC3F6FA524C634C000CEA630 /* Assets.xcassets */; };
@@ -38,11 +41,14 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		AC13E5DF24EDB048002A3E1E /* MainInfoViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainInfoViewController.swift; sourceTree = "<group>"; };
+		AC13E5E124EDB0AB002A3E1E /* AccountsTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AccountsTableViewController.swift; sourceTree = "<group>"; };
+		AC13E5E324EDB0DA002A3E1E /* CalculatorViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CalculatorViewController.swift; sourceTree = "<group>"; };
+		AC13E5E524EDB112002A3E1E /* SettingsTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsTableViewController.swift; sourceTree = "<group>"; };
+		AC13E5E724EDB15E002A3E1E /* FullAccountCollectionViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FullAccountCollectionViewController.swift; sourceTree = "<group>"; };
 		AC3F6F9424C634BF00CEA630 /* fifaCoinManager.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = fifaCoinManager.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		AC3F6F9724C634BF00CEA630 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		AC3F6F9924C634BF00CEA630 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		AC3F6F9B24C634BF00CEA630 /* FirstViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirstViewController.swift; sourceTree = "<group>"; };
-		AC3F6F9D24C634BF00CEA630 /* SecondViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecondViewController.swift; sourceTree = "<group>"; };
 		AC3F6FA024C634BF00CEA630 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		AC3F6FA324C634BF00CEA630 /* fifaCoinManager.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = fifaCoinManager.xcdatamodel; sourceTree = "<group>"; };
 		AC3F6FA524C634C000CEA630 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -82,6 +88,166 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		AC13E5E924EDB1BC002A3E1E /* Calculator screen */ = {
+			isa = PBXGroup;
+			children = (
+				AC13E5EC24EDB1E1002A3E1E /* Model */,
+				AC13E5EB24EDB1D9002A3E1E /* View */,
+				AC13E5EA24EDB1CF002A3E1E /* Controller */,
+			);
+			path = "Calculator screen";
+			sourceTree = "<group>";
+		};
+		AC13E5EA24EDB1CF002A3E1E /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				AC13E5E324EDB0DA002A3E1E /* CalculatorViewController.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		AC13E5EB24EDB1D9002A3E1E /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		AC13E5EC24EDB1E1002A3E1E /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		AC13E5ED24EDB232002A3E1E /* Settings screen */ = {
+			isa = PBXGroup;
+			children = (
+				AC13E5F024EDB262002A3E1E /* Model */,
+				AC13E5EF24EDB25C002A3E1E /* View */,
+				AC13E5EE24EDB246002A3E1E /* Controller */,
+			);
+			path = "Settings screen";
+			sourceTree = "<group>";
+		};
+		AC13E5EE24EDB246002A3E1E /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				AC13E5E524EDB112002A3E1E /* SettingsTableViewController.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		AC13E5EF24EDB25C002A3E1E /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		AC13E5F024EDB262002A3E1E /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		AC13E5F124EDB29C002A3E1E /* Accounts list screen */ = {
+			isa = PBXGroup;
+			children = (
+				AC13E5F524EDB2D5002A3E1E /* Model */,
+				AC13E5F424EDB2D0002A3E1E /* View */,
+				AC13E5F324EDB2C7002A3E1E /* Controller */,
+			);
+			path = "Accounts list screen";
+			sourceTree = "<group>";
+		};
+		AC13E5F324EDB2C7002A3E1E /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				AC13E5E124EDB0AB002A3E1E /* AccountsTableViewController.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		AC13E5F424EDB2D0002A3E1E /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		AC13E5F524EDB2D5002A3E1E /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		AC13E5F624EDB317002A3E1E /* Full account info list */ = {
+			isa = PBXGroup;
+			children = (
+				AC13E5F924EDB360002A3E1E /* Model */,
+				AC13E5F824EDB345002A3E1E /* View */,
+				AC13E5F724EDB33E002A3E1E /* Controller */,
+			);
+			path = "Full account info list";
+			sourceTree = "<group>";
+		};
+		AC13E5F724EDB33E002A3E1E /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				AC13E5E724EDB15E002A3E1E /* FullAccountCollectionViewController.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		AC13E5F824EDB345002A3E1E /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		AC13E5F924EDB360002A3E1E /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		AC13E5FA24EDB44C002A3E1E /*  Main info screen */ = {
+			isa = PBXGroup;
+			children = (
+				AC13E5FD24EDB476002A3E1E /* Model */,
+				AC13E5FC24EDB471002A3E1E /* View */,
+				AC13E5FB24EDB461002A3E1E /* Controller */,
+			);
+			path = " Main info screen";
+			sourceTree = "<group>";
+		};
+		AC13E5FB24EDB461002A3E1E /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				AC13E5DF24EDB048002A3E1E /* MainInfoViewController.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		AC13E5FC24EDB471002A3E1E /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		AC13E5FD24EDB476002A3E1E /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
 		AC3F6F8B24C634BF00CEA630 = {
 			isa = PBXGroup;
 			children = (
@@ -107,6 +273,11 @@
 			isa = PBXGroup;
 			children = (
 				AC8954C824E48997004921B1 /* Application */,
+				AC13E5FA24EDB44C002A3E1E /*  Main info screen */,
+				AC13E5F624EDB317002A3E1E /* Full account info list */,
+				AC13E5F124EDB29C002A3E1E /* Accounts list screen */,
+				AC13E5ED24EDB232002A3E1E /* Settings screen */,
+				AC13E5E924EDB1BC002A3E1E /* Calculator screen */,
 			);
 			path = fifaCoinManager;
 			sourceTree = "<group>";
@@ -150,8 +321,6 @@
 		AC8954C724E4898A004921B1 /* Model */ = {
 			isa = PBXGroup;
 			children = (
-				AC3F6F9D24C634BF00CEA630 /* SecondViewController.swift */,
-				AC3F6F9B24C634BF00CEA630 /* FirstViewController.swift */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -309,11 +478,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				AC3F6F9E24C634BF00CEA630 /* SecondViewController.swift in Sources */,
-				AC3F6F9C24C634BF00CEA630 /* FirstViewController.swift in Sources */,
 				AC3F6F9824C634BF00CEA630 /* AppDelegate.swift in Sources */,
 				AC3F6FA424C634BF00CEA630 /* fifaCoinManager.xcdatamodeld in Sources */,
+				AC13E5E224EDB0AB002A3E1E /* AccountsTableViewController.swift in Sources */,
 				AC3F6F9A24C634BF00CEA630 /* SceneDelegate.swift in Sources */,
+				AC13E5E424EDB0DA002A3E1E /* CalculatorViewController.swift in Sources */,
+				AC13E5E024EDB048002A3E1E /* MainInfoViewController.swift in Sources */,
+				AC13E5E624EDB112002A3E1E /* SettingsTableViewController.swift in Sources */,
+				AC13E5E824EDB15E002A3E1E /* FullAccountCollectionViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
