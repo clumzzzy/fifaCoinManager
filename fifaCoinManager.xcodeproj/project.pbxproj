@@ -12,6 +12,7 @@
 		AC13E5E424EDB0DA002A3E1E /* CalculatorViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC13E5E324EDB0DA002A3E1E /* CalculatorViewController.swift */; };
 		AC13E5E624EDB112002A3E1E /* SettingsTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC13E5E524EDB112002A3E1E /* SettingsTableViewController.swift */; };
 		AC13E5E824EDB15E002A3E1E /* FullAccountCollectionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC13E5E724EDB15E002A3E1E /* FullAccountCollectionViewController.swift */; };
+		AC3DEEC024F1B55400EDC065 /* BorderedButtons.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC3DEEBF24F1B55400EDC065 /* BorderedButtons.swift */; };
 		AC3F6F9824C634BF00CEA630 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC3F6F9724C634BF00CEA630 /* AppDelegate.swift */; };
 		AC3F6F9A24C634BF00CEA630 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC3F6F9924C634BF00CEA630 /* SceneDelegate.swift */; };
 		AC3F6FA124C634BF00CEA630 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AC3F6F9F24C634BF00CEA630 /* Main.storyboard */; };
@@ -46,6 +47,7 @@
 		AC13E5E324EDB0DA002A3E1E /* CalculatorViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CalculatorViewController.swift; sourceTree = "<group>"; };
 		AC13E5E524EDB112002A3E1E /* SettingsTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsTableViewController.swift; sourceTree = "<group>"; };
 		AC13E5E724EDB15E002A3E1E /* FullAccountCollectionViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FullAccountCollectionViewController.swift; sourceTree = "<group>"; };
+		AC3DEEBF24F1B55400EDC065 /* BorderedButtons.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BorderedButtons.swift; sourceTree = "<group>"; };
 		AC3F6F9424C634BF00CEA630 /* fifaCoinManager.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = fifaCoinManager.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		AC3F6F9724C634BF00CEA630 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		AC3F6F9924C634BF00CEA630 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -102,6 +104,7 @@
 			isa = PBXGroup;
 			children = (
 				AC13E5E324EDB0DA002A3E1E /* CalculatorViewController.swift */,
+				AC3DEEBF24F1B55400EDC065 /* BorderedButtons.swift */,
 			);
 			path = Controller;
 			sourceTree = "<group>";
@@ -484,6 +487,7 @@
 				AC3F6F9A24C634BF00CEA630 /* SceneDelegate.swift in Sources */,
 				AC13E5E424EDB0DA002A3E1E /* CalculatorViewController.swift in Sources */,
 				AC13E5E024EDB048002A3E1E /* MainInfoViewController.swift in Sources */,
+				AC3DEEC024F1B55400EDC065 /* BorderedButtons.swift in Sources */,
 				AC13E5E624EDB112002A3E1E /* SettingsTableViewController.swift in Sources */,
 				AC13E5E824EDB15E002A3E1E /* FullAccountCollectionViewController.swift in Sources */,
 			);
