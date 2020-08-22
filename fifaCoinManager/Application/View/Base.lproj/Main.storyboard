@@ -115,11 +115,11 @@
             </objects>
             <point key="canvasLocation" x="4123" y="583"/>
         </scene>
-        <!--Item-->
+        <!--Accounts list-->
         <scene sceneID="EUK-2o-ACx">
             <objects>
                 <navigationController automaticallyAdjustsScrollViewInsets="NO" id="ppb-yA-l8U" sceneMemberID="viewController">
-                    <tabBarItem key="tabBarItem" title="Item" id="3U0-El-HR1"/>
+                    <tabBarItem key="tabBarItem" title="Accounts list" image="list.dash" catalog="system" id="3U0-El-HR1"/>
                     <toolbarItems/>
                     <navigationBar key="navigationBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="goD-cq-Nla">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="44"/>
@@ -143,6 +143,7 @@
                         <rect key="frame" x="0.0" y="0.0" width="1000" height="1000"/>
                         <autoresizingMask key="autoresizingMask"/>
                         <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <color key="selectedImageTintColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                     </tabBar>
                     <connections>
                         <segue destination="uxW-xc-7j0" kind="relationship" relationship="viewControllers" id="7Sx-Iy-0x5"/>
@@ -661,11 +662,11 @@
             </objects>
             <point key="canvasLocation" x="5071.0144927536239" y="-1005.1339285714286"/>
         </scene>
-        <!--Navigation Controller-->
+        <!--Information-->
         <scene sceneID="sbT-0f-31z">
             <objects>
                 <navigationController automaticallyAdjustsScrollViewInsets="NO" id="uxW-xc-7j0" sceneMemberID="viewController">
-                    <tabBarItem key="tabBarItem" springLoaded="YES" id="GAe-5i-j97"/>
+                    <tabBarItem key="tabBarItem" title="Information" image="info.circle" catalog="system" springLoaded="YES" id="GAe-5i-j97"/>
                     <toolbarItems/>
                     <navigationBar key="navigationBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="7Eo-Sg-x04">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="44"/>
@@ -701,6 +702,8 @@
     </scenes>
     <resources>
         <image name="calculator" width="50" height="51"/>
+        <image name="info.circle" catalog="system" width="128" height="121"/>
+        <image name="list.dash" catalog="system" width="128" height="85"/>
         <image name="set2" width="51" height="51"/>
         <image name="sort" width="44" height="51"/>
     </resources>
