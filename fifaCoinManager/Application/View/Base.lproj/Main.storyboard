@@ -574,13 +574,30 @@
                                     <constraint firstItem="xA2-la-U4Y" firstAttribute="height" secondItem="z9M-y9-ssB" secondAttribute="height" id="zpl-YY-vQo"/>
                                 </constraints>
                             </view>
-                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" adjustsImageWhenDisabled="NO" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="O9Y-aw-huR" customClass="BorderedButtons" customModule="fifaCoinManager" customModuleProvider="target">
-                                <rect key="frame" x="0.0" y="540" width="375" height="75"/>
-                                <color key="backgroundColor" red="0.50921398806467222" green="0.29289099875120894" blue="0.72457901554404147" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" adjustsImageWhenDisabled="NO" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="nYR-bX-8Ou" customClass="BorderedButtons" customModule="fifaCoinManager" customModuleProvider="target">
+                                <rect key="frame" x="188" y="540" width="187" height="80"/>
+                                <color key="backgroundColor" red="0.526902914" green="0.472410202" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <constraints>
-                                    <constraint firstAttribute="height" constant="75" id="T1g-YR-odG"/>
+                                    <constraint firstAttribute="width" relation="greaterThanOrEqual" constant="187" id="Kce-kA-NAb"/>
+                                    <constraint firstAttribute="height" relation="greaterThanOrEqual" constant="80" id="rND-7c-JCP"/>
                                 </constraints>
                                 <fontDescription key="fontDescription" name="AppleSDGothicNeo-Regular" family="Apple SD Gothic Neo" pointSize="40"/>
+                                <color key="tintColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <state key="normal" title="Tax"/>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="cornerRadius">
+                                        <real key="value" value="10"/>
+                                    </userDefinedRuntimeAttribute>
+                                </userDefinedRuntimeAttributes>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" adjustsImageWhenDisabled="NO" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="O9Y-aw-huR" customClass="BorderedButtons" customModule="fifaCoinManager" customModuleProvider="target">
+                                <rect key="frame" x="0.0" y="540" width="187" height="80"/>
+                                <color key="backgroundColor" red="0.526902914" green="0.472410202" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="80" id="T1g-YR-odG"/>
+                                    <constraint firstAttribute="width" relation="greaterThanOrEqual" constant="187" id="aS1-91-zAi"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" name="AppleSDGothicNeo-Regular" family="Apple SD Gothic Neo" pointSize="25"/>
                                 <color key="tintColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <state key="normal" title="Money equvalent"/>
                                 <userDefinedRuntimeAttributes>
@@ -593,16 +610,19 @@
                         <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
                         <constraints>
                             <constraint firstItem="O9Y-aw-huR" firstAttribute="leading" secondItem="6nd-jI-xZB" secondAttribute="leading" id="4Ch-N6-qvZ"/>
+                            <constraint firstItem="nYR-bX-8Ou" firstAttribute="width" secondItem="O9Y-aw-huR" secondAttribute="width" id="5fj-Cc-Mew"/>
                             <constraint firstItem="WbB-yR-mkW" firstAttribute="leading" secondItem="6nd-jI-xZB" secondAttribute="leading" constant="20" id="7kp-hL-Zg0"/>
                             <constraint firstItem="6nd-jI-xZB" firstAttribute="bottom" secondItem="O9Y-aw-huR" secondAttribute="bottom" id="AXs-qH-7Ub"/>
                             <constraint firstItem="xcs-XF-DvK" firstAttribute="trailing" secondItem="6nd-jI-xZB" secondAttribute="trailing" constant="1" id="Ae5-jW-ayh"/>
                             <constraint firstItem="O9Y-aw-huR" firstAttribute="top" secondItem="xcs-XF-DvK" secondAttribute="bottom" id="Jl8-3i-KNu"/>
                             <constraint firstItem="6nd-jI-xZB" firstAttribute="trailing" secondItem="WbB-yR-mkW" secondAttribute="trailing" constant="20" id="KZd-Vh-iU6"/>
                             <constraint firstItem="wE4-W3-fPm" firstAttribute="leading" secondItem="6nd-jI-xZB" secondAttribute="leading" id="MHr-xM-syN"/>
+                            <constraint firstItem="nYR-bX-8Ou" firstAttribute="leading" secondItem="O9Y-aw-huR" secondAttribute="trailing" constant="1" id="N2Z-t3-iOF"/>
                             <constraint firstItem="xcs-XF-DvK" firstAttribute="top" secondItem="WbB-yR-mkW" secondAttribute="bottom" constant="8" id="PFh-mk-0f3"/>
+                            <constraint firstItem="nYR-bX-8Ou" firstAttribute="top" secondItem="xcs-XF-DvK" secondAttribute="bottom" id="PMR-oy-xYK"/>
+                            <constraint firstItem="6nd-jI-xZB" firstAttribute="trailing" secondItem="nYR-bX-8Ou" secondAttribute="trailing" id="YN9-bx-xmW"/>
                             <constraint firstItem="WbB-yR-mkW" firstAttribute="top" secondItem="6nd-jI-xZB" secondAttribute="top" constant="35" id="YOI-4O-VfK"/>
                             <constraint firstItem="6nd-jI-xZB" firstAttribute="leading" secondItem="xcs-XF-DvK" secondAttribute="leading" constant="1" id="lhG-Ci-uph"/>
-                            <constraint firstItem="6nd-jI-xZB" firstAttribute="trailing" secondItem="O9Y-aw-huR" secondAttribute="trailing" id="vXQ-UZ-9St"/>
                             <constraint firstItem="xcs-XF-DvK" firstAttribute="centerX" secondItem="6nd-jI-xZB" secondAttribute="centerX" id="zO8-L9-WT8"/>
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="6nd-jI-xZB"/>

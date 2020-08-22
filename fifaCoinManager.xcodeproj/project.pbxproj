@@ -12,7 +12,6 @@
 		AC13E5E424EDB0DA002A3E1E /* CalculatorViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC13E5E324EDB0DA002A3E1E /* CalculatorViewController.swift */; };
 		AC13E5E624EDB112002A3E1E /* SettingsTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC13E5E524EDB112002A3E1E /* SettingsTableViewController.swift */; };
 		AC13E5E824EDB15E002A3E1E /* FullAccountCollectionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC13E5E724EDB15E002A3E1E /* FullAccountCollectionViewController.swift */; };
-		AC3DEEC024F1B55400EDC065 /* BorderedButtons.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC3DEEBF24F1B55400EDC065 /* BorderedButtons.swift */; };
 		AC3F6F9824C634BF00CEA630 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC3F6F9724C634BF00CEA630 /* AppDelegate.swift */; };
 		AC3F6F9A24C634BF00CEA630 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC3F6F9924C634BF00CEA630 /* SceneDelegate.swift */; };
 		AC3F6FA124C634BF00CEA630 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AC3F6F9F24C634BF00CEA630 /* Main.storyboard */; };
@@ -22,6 +21,7 @@
 		AC3F6FB424C634C000CEA630 /* fifaCoinManagerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC3F6FB324C634C000CEA630 /* fifaCoinManagerTests.swift */; };
 		AC3F6FBF24C634C000CEA630 /* fifaCoinManagerUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC3F6FBE24C634C000CEA630 /* fifaCoinManagerUITests.swift */; };
 		AC3F6FCD24C6352300CEA630 /* .gitignore in Resources */ = {isa = PBXBuildFile; fileRef = AC3F6FCC24C6352300CEA630 /* .gitignore */; };
+		ACD718E024F1BD7A002830ED /* BorderedButtons.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACD718DF24F1BD7A002830ED /* BorderedButtons.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,7 +47,6 @@
 		AC13E5E324EDB0DA002A3E1E /* CalculatorViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CalculatorViewController.swift; sourceTree = "<group>"; };
 		AC13E5E524EDB112002A3E1E /* SettingsTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsTableViewController.swift; sourceTree = "<group>"; };
 		AC13E5E724EDB15E002A3E1E /* FullAccountCollectionViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FullAccountCollectionViewController.swift; sourceTree = "<group>"; };
-		AC3DEEBF24F1B55400EDC065 /* BorderedButtons.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BorderedButtons.swift; sourceTree = "<group>"; };
 		AC3F6F9424C634BF00CEA630 /* fifaCoinManager.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = fifaCoinManager.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		AC3F6F9724C634BF00CEA630 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		AC3F6F9924C634BF00CEA630 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -63,6 +62,7 @@
 		AC3F6FBE24C634C000CEA630 /* fifaCoinManagerUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = fifaCoinManagerUITests.swift; sourceTree = "<group>"; };
 		AC3F6FC024C634C000CEA630 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		AC3F6FCC24C6352300CEA630 /* .gitignore */ = {isa = PBXFileReference; lastKnownFileType = text; path = .gitignore; sourceTree = "<group>"; };
+		ACD718DF24F1BD7A002830ED /* BorderedButtons.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BorderedButtons.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -104,7 +104,6 @@
 			isa = PBXGroup;
 			children = (
 				AC13E5E324EDB0DA002A3E1E /* CalculatorViewController.swift */,
-				AC3DEEBF24F1B55400EDC065 /* BorderedButtons.swift */,
 			);
 			path = Controller;
 			sourceTree = "<group>";
@@ -308,6 +307,7 @@
 			children = (
 				AC3F6F9724C634BF00CEA630 /* AppDelegate.swift */,
 				AC3F6F9924C634BF00CEA630 /* SceneDelegate.swift */,
+				ACD718DF24F1BD7A002830ED /* BorderedButtons.swift */,
 			);
 			path = Controller;
 			sourceTree = "<group>";
@@ -487,7 +487,7 @@
 				AC3F6F9A24C634BF00CEA630 /* SceneDelegate.swift in Sources */,
 				AC13E5E424EDB0DA002A3E1E /* CalculatorViewController.swift in Sources */,
 				AC13E5E024EDB048002A3E1E /* MainInfoViewController.swift in Sources */,
-				AC3DEEC024F1B55400EDC065 /* BorderedButtons.swift in Sources */,
+				ACD718E024F1BD7A002830ED /* BorderedButtons.swift in Sources */,
 				AC13E5E624EDB112002A3E1E /* SettingsTableViewController.swift in Sources */,
 				AC13E5E824EDB15E002A3E1E /* FullAccountCollectionViewController.swift in Sources */,
 			);
