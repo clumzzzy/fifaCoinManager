@@ -170,16 +170,6 @@
                                 <nil key="textColor"/>
                                 <color key="highlightedColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                             </label>
-                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" adjustsImageWhenDisabled="NO" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="O9Y-aw-huR">
-                                <rect key="frame" x="0.0" y="541" width="375" height="106"/>
-                                <color key="backgroundColor" red="0.50921398806467222" green="0.29289099875120894" blue="0.72457901554404147" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                <constraints>
-                                    <constraint firstAttribute="height" constant="106" id="T1g-YR-odG"/>
-                                </constraints>
-                                <fontDescription key="fontDescription" name="AppleSDGothicNeo-Regular" family="Apple SD Gothic Neo" pointSize="40"/>
-                                <color key="tintColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                                <state key="normal" title="Money equvalent"/>
-                            </button>
                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="xcs-XF-DvK" userLabel="NumbersView">
                                 <rect key="frame" x="-1" y="159" width="377" height="381"/>
                                 <subviews>
@@ -507,6 +497,16 @@
                                     <constraint firstItem="xA2-la-U4Y" firstAttribute="height" secondItem="z9M-y9-ssB" secondAttribute="height" id="zpl-YY-vQo"/>
                                 </constraints>
                             </view>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" adjustsImageWhenDisabled="NO" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="O9Y-aw-huR">
+                                <rect key="frame" x="0.0" y="540" width="375" height="75"/>
+                                <color key="backgroundColor" red="0.50921398806467222" green="0.29289099875120894" blue="0.72457901554404147" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="75" id="T1g-YR-odG"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" name="AppleSDGothicNeo-Regular" family="Apple SD Gothic Neo" pointSize="40"/>
+                                <color key="tintColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <state key="normal" title="Money equvalent"/>
+                            </button>
                         </subviews>
                         <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
                         <constraints>
@@ -514,7 +514,7 @@
                             <constraint firstItem="WbB-yR-mkW" firstAttribute="leading" secondItem="6nd-jI-xZB" secondAttribute="leading" constant="20" id="7kp-hL-Zg0"/>
                             <constraint firstItem="6nd-jI-xZB" firstAttribute="bottom" secondItem="O9Y-aw-huR" secondAttribute="bottom" id="AXs-qH-7Ub"/>
                             <constraint firstItem="xcs-XF-DvK" firstAttribute="trailing" secondItem="6nd-jI-xZB" secondAttribute="trailing" constant="1" id="Ae5-jW-ayh"/>
-                            <constraint firstItem="O9Y-aw-huR" firstAttribute="top" secondItem="xcs-XF-DvK" secondAttribute="bottom" constant="1" id="Jl8-3i-KNu"/>
+                            <constraint firstItem="O9Y-aw-huR" firstAttribute="top" secondItem="xcs-XF-DvK" secondAttribute="bottom" id="Jl8-3i-KNu"/>
                             <constraint firstItem="6nd-jI-xZB" firstAttribute="trailing" secondItem="WbB-yR-mkW" secondAttribute="trailing" constant="20" id="KZd-Vh-iU6"/>
                             <constraint firstItem="xcs-XF-DvK" firstAttribute="top" secondItem="WbB-yR-mkW" secondAttribute="bottom" constant="8" id="PFh-mk-0f3"/>
                             <constraint firstItem="WbB-yR-mkW" firstAttribute="top" secondItem="6nd-jI-xZB" secondAttribute="top" constant="35" id="YOI-4O-VfK"/>
