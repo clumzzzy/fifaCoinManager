@@ -162,7 +162,7 @@
                         <rect key="frame" x="0.0" y="0.0" width="375" height="647"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="0" textAlignment="right" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="WbB-yR-mkW">
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="0" textAlignment="right" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" minimumScaleFactor="0.29999999999999999" translatesAutoresizingMaskIntoConstraints="NO" id="WbB-yR-mkW">
                                 <rect key="frame" x="20" y="35" width="337" height="116"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="116" id="Lft-gG-oPN"/>
@@ -174,54 +174,6 @@
                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="xcs-XF-DvK" userLabel="NumbersView">
                                 <rect key="frame" x="0.0" y="156" width="377" height="493"/>
                                 <subviews>
-                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="z9M-y9-ssB" customClass="BorderedButtons" customModule="fifaCoinManager" customModuleProvider="target">
-                                        <rect key="frame" x="1" y="1" width="93" height="81"/>
-                                        <color key="backgroundColor" red="0.55214085578778405" green="0.41539574075884966" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                        <constraints>
-                                            <constraint firstAttribute="width" constant="93" id="MAS-rU-0bI"/>
-                                            <constraint firstAttribute="height" constant="81" id="XFy-S2-Eul"/>
-                                        </constraints>
-                                        <fontDescription key="fontDescription" name="AppleSDGothicNeo-Regular" family="Apple SD Gothic Neo" pointSize="40"/>
-                                        <color key="tintColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                                        <state key="normal" title="C"/>
-                                        <userDefinedRuntimeAttributes>
-                                            <userDefinedRuntimeAttribute type="number" keyPath="cornerRadius">
-                                                <real key="value" value="10"/>
-                                            </userDefinedRuntimeAttribute>
-                                        </userDefinedRuntimeAttributes>
-                                    </button>
-                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Eg7-Px-1Ec" customClass="BorderedButtons" customModule="fifaCoinManager" customModuleProvider="target">
-                                        <rect key="frame" x="95" y="1" width="93" height="81"/>
-                                        <color key="backgroundColor" red="0.55214085578778405" green="0.41539574075884966" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                        <constraints>
-                                            <constraint firstAttribute="height" constant="81" id="col-Wh-bVa"/>
-                                            <constraint firstAttribute="width" relation="greaterThanOrEqual" constant="93" id="lf7-Dc-Jmk"/>
-                                        </constraints>
-                                        <fontDescription key="fontDescription" name="AppleSDGothicNeo-Regular" family="Apple SD Gothic Neo" pointSize="40"/>
-                                        <color key="tintColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                                        <state key="normal" title="+/-"/>
-                                        <userDefinedRuntimeAttributes>
-                                            <userDefinedRuntimeAttribute type="number" keyPath="cornerRadius">
-                                                <real key="value" value="10"/>
-                                            </userDefinedRuntimeAttribute>
-                                        </userDefinedRuntimeAttributes>
-                                    </button>
-                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="UZO-Ue-M6l" customClass="BorderedButtons" customModule="fifaCoinManager" customModuleProvider="target">
-                                        <rect key="frame" x="189" y="1" width="93" height="81"/>
-                                        <color key="backgroundColor" red="0.55214085578778405" green="0.41539574075884966" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                        <constraints>
-                                            <constraint firstAttribute="height" constant="81" id="Ivx-jz-FMJ"/>
-                                            <constraint firstAttribute="width" constant="93" id="k1y-lX-M5U"/>
-                                        </constraints>
-                                        <fontDescription key="fontDescription" name="AppleSDGothicNeo-Regular" family="Apple SD Gothic Neo" pointSize="40"/>
-                                        <color key="tintColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                                        <state key="normal" title="%"/>
-                                        <userDefinedRuntimeAttributes>
-                                            <userDefinedRuntimeAttribute type="number" keyPath="cornerRadius">
-                                                <real key="value" value="10"/>
-                                            </userDefinedRuntimeAttribute>
-                                        </userDefinedRuntimeAttributes>
-                                    </button>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="wE4-W3-fPm" customClass="BorderedButtons" customModule="fifaCoinManager" customModuleProvider="target">
                                         <rect key="frame" x="1" y="329" width="187" height="81"/>
                                         <color key="backgroundColor" red="0.50921398809999996" green="0.29289099880000002" blue="0.72457901550000003" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
@@ -237,190 +189,9 @@
                                                 <real key="value" value="10"/>
                                             </userDefinedRuntimeAttribute>
                                         </userDefinedRuntimeAttributes>
-                                    </button>
-                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="jLz-fF-HMN" customClass="BorderedButtons" customModule="fifaCoinManager" customModuleProvider="target">
-                                        <rect key="frame" x="283" y="83" width="93" height="81"/>
-                                        <color key="backgroundColor" red="0.55214085578778405" green="0.41539574075884966" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                        <constraints>
-                                            <constraint firstAttribute="height" constant="81" id="AbH-h8-mjj"/>
-                                            <constraint firstAttribute="width" constant="93" id="Lxj-M1-CB4"/>
-                                        </constraints>
-                                        <fontDescription key="fontDescription" name="AppleSDGothicNeo-Regular" family="Apple SD Gothic Neo" pointSize="40"/>
-                                        <color key="tintColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                                        <state key="normal" title="×"/>
-                                        <userDefinedRuntimeAttributes>
-                                            <userDefinedRuntimeAttribute type="number" keyPath="cornerRadius">
-                                                <real key="value" value="10"/>
-                                            </userDefinedRuntimeAttribute>
-                                        </userDefinedRuntimeAttributes>
-                                    </button>
-                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Gbl-C3-zDm" customClass="BorderedButtons" customModule="fifaCoinManager" customModuleProvider="target">
-                                        <rect key="frame" x="189" y="83" width="93" height="81"/>
-                                        <color key="backgroundColor" red="0.50921398809999996" green="0.29289099880000002" blue="0.72457901550000003" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                        <constraints>
-                                            <constraint firstAttribute="width" constant="93" id="NaV-Kw-Aol"/>
-                                            <constraint firstAttribute="height" constant="81" id="RCG-OT-mkC"/>
-                                        </constraints>
-                                        <fontDescription key="fontDescription" name="AppleSDGothicNeo-Regular" family="Apple SD Gothic Neo" pointSize="40"/>
-                                        <state key="normal" title="9">
-                                            <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                                        </state>
-                                        <userDefinedRuntimeAttributes>
-                                            <userDefinedRuntimeAttribute type="number" keyPath="cornerRadius">
-                                                <real key="value" value="10"/>
-                                            </userDefinedRuntimeAttribute>
-                                        </userDefinedRuntimeAttributes>
-                                    </button>
-                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="nwN-mt-C4l" customClass="BorderedButtons" customModule="fifaCoinManager" customModuleProvider="target">
-                                        <rect key="frame" x="95" y="83" width="93" height="81"/>
-                                        <color key="backgroundColor" red="0.50921398809999996" green="0.29289099880000002" blue="0.72457901550000003" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                        <constraints>
-                                            <constraint firstAttribute="width" constant="93" id="8mp-vG-1de"/>
-                                            <constraint firstAttribute="height" constant="81" id="GcB-Jv-t3I"/>
-                                        </constraints>
-                                        <fontDescription key="fontDescription" name="AppleSDGothicNeo-Regular" family="Apple SD Gothic Neo" pointSize="40"/>
-                                        <state key="normal" title="8">
-                                            <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                                        </state>
-                                        <userDefinedRuntimeAttributes>
-                                            <userDefinedRuntimeAttribute type="number" keyPath="cornerRadius">
-                                                <real key="value" value="10"/>
-                                            </userDefinedRuntimeAttribute>
-                                        </userDefinedRuntimeAttributes>
-                                    </button>
-                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="t1Y-lJ-TpV" customClass="BorderedButtons" customModule="fifaCoinManager" customModuleProvider="target">
-                                        <rect key="frame" x="1" y="83" width="93" height="81"/>
-                                        <color key="backgroundColor" red="0.50921398809999996" green="0.29289099880000002" blue="0.72457901550000003" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                        <constraints>
-                                            <constraint firstAttribute="height" constant="81" id="eHB-nI-TzW"/>
-                                            <constraint firstAttribute="width" constant="93" id="ooe-I1-Ind"/>
-                                        </constraints>
-                                        <fontDescription key="fontDescription" name="AppleSDGothicNeo-Regular" family="Apple SD Gothic Neo" pointSize="40"/>
-                                        <state key="normal" title="7">
-                                            <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                                        </state>
-                                        <userDefinedRuntimeAttributes>
-                                            <userDefinedRuntimeAttribute type="number" keyPath="cornerRadius">
-                                                <real key="value" value="10"/>
-                                            </userDefinedRuntimeAttribute>
-                                        </userDefinedRuntimeAttributes>
-                                    </button>
-                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Z33-jG-U3C" customClass="BorderedButtons" customModule="fifaCoinManager" customModuleProvider="target">
-                                        <rect key="frame" x="1" y="165" width="93" height="81"/>
-                                        <color key="backgroundColor" red="0.50921398809999996" green="0.29289099880000002" blue="0.72457901550000003" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                        <constraints>
-                                            <constraint firstAttribute="width" constant="93" id="TFA-wT-hHe"/>
-                                            <constraint firstAttribute="height" constant="81" id="n02-BA-hqE"/>
-                                        </constraints>
-                                        <fontDescription key="fontDescription" name="AppleSDGothicNeo-Regular" family="Apple SD Gothic Neo" pointSize="40"/>
-                                        <state key="normal" title="4">
-                                            <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                                        </state>
-                                        <userDefinedRuntimeAttributes>
-                                            <userDefinedRuntimeAttribute type="number" keyPath="cornerRadius">
-                                                <real key="value" value="10"/>
-                                            </userDefinedRuntimeAttribute>
-                                        </userDefinedRuntimeAttributes>
-                                    </button>
-                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="LTH-ls-rp3" customClass="BorderedButtons" customModule="fifaCoinManager" customModuleProvider="target">
-                                        <rect key="frame" x="95" y="165" width="93" height="81"/>
-                                        <color key="backgroundColor" red="0.50921398809999996" green="0.29289099880000002" blue="0.72457901550000003" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                        <constraints>
-                                            <constraint firstAttribute="width" constant="93" id="FTP-Ed-s6x"/>
-                                            <constraint firstAttribute="height" constant="81" id="lGq-Lw-dWT"/>
-                                        </constraints>
-                                        <fontDescription key="fontDescription" name="AppleSDGothicNeo-Regular" family="Apple SD Gothic Neo" pointSize="40"/>
-                                        <state key="normal" title="5">
-                                            <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                                        </state>
-                                        <userDefinedRuntimeAttributes>
-                                            <userDefinedRuntimeAttribute type="number" keyPath="cornerRadius">
-                                                <real key="value" value="10"/>
-                                            </userDefinedRuntimeAttribute>
-                                        </userDefinedRuntimeAttributes>
-                                    </button>
-                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="xA2-la-U4Y" customClass="BorderedButtons" customModule="fifaCoinManager" customModuleProvider="target">
-                                        <rect key="frame" x="189" y="165" width="93" height="81"/>
-                                        <color key="backgroundColor" red="0.50921398809999996" green="0.29289099880000002" blue="0.72457901550000003" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                        <constraints>
-                                            <constraint firstAttribute="height" constant="81" id="BiB-Po-X1e"/>
-                                            <constraint firstAttribute="width" constant="93" id="sG1-4C-nog"/>
-                                        </constraints>
-                                        <fontDescription key="fontDescription" name="AppleSDGothicNeo-Regular" family="Apple SD Gothic Neo" pointSize="40"/>
-                                        <state key="normal" title="6">
-                                            <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                                        </state>
-                                        <userDefinedRuntimeAttributes>
-                                            <userDefinedRuntimeAttribute type="number" keyPath="cornerRadius">
-                                                <real key="value" value="10"/>
-                                            </userDefinedRuntimeAttribute>
-                                        </userDefinedRuntimeAttributes>
-                                    </button>
-                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="A1L-Sq-eza" customClass="BorderedButtons" customModule="fifaCoinManager" customModuleProvider="target">
-                                        <rect key="frame" x="283" y="165" width="93" height="81"/>
-                                        <color key="backgroundColor" red="0.55214085578778405" green="0.41539574075884966" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                        <constraints>
-                                            <constraint firstAttribute="height" constant="81" id="5hT-1f-alH"/>
-                                            <constraint firstAttribute="width" constant="93" id="KVb-h0-Kdj"/>
-                                        </constraints>
-                                        <fontDescription key="fontDescription" name="AppleSDGothicNeo-Regular" family="Apple SD Gothic Neo" pointSize="40"/>
-                                        <color key="tintColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                                        <state key="normal" title="−"/>
-                                        <userDefinedRuntimeAttributes>
-                                            <userDefinedRuntimeAttribute type="number" keyPath="cornerRadius">
-                                                <real key="value" value="10"/>
-                                            </userDefinedRuntimeAttribute>
-                                        </userDefinedRuntimeAttributes>
-                                    </button>
-                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="FCU-Ma-bOX" customClass="BorderedButtons" customModule="fifaCoinManager" customModuleProvider="target">
-                                        <rect key="frame" x="283" y="247" width="93" height="81"/>
-                                        <color key="backgroundColor" red="0.55214085578778405" green="0.41539574075884966" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                        <constraints>
-                                            <constraint firstAttribute="width" constant="93" id="8uZ-Bw-Klp"/>
-                                            <constraint firstAttribute="height" constant="81" id="V2E-HQ-hKD"/>
-                                        </constraints>
-                                        <fontDescription key="fontDescription" name="AppleSDGothicNeo-Regular" family="Apple SD Gothic Neo" pointSize="40"/>
-                                        <color key="tintColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                                        <state key="normal" title="+"/>
-                                        <userDefinedRuntimeAttributes>
-                                            <userDefinedRuntimeAttribute type="number" keyPath="cornerRadius">
-                                                <real key="value" value="10"/>
-                                            </userDefinedRuntimeAttribute>
-                                        </userDefinedRuntimeAttributes>
-                                    </button>
-                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="QoB-Kr-Tyi" customClass="BorderedButtons" customModule="fifaCoinManager" customModuleProvider="target">
-                                        <rect key="frame" x="189" y="247" width="93" height="81"/>
-                                        <color key="backgroundColor" red="0.50921398809999996" green="0.29289099880000002" blue="0.72457901550000003" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                        <constraints>
-                                            <constraint firstAttribute="width" constant="93" id="JQo-sY-SZM"/>
-                                            <constraint firstAttribute="height" constant="81" id="m4V-GQ-01R"/>
-                                        </constraints>
-                                        <fontDescription key="fontDescription" name="AppleSDGothicNeo-Regular" family="Apple SD Gothic Neo" pointSize="40"/>
-                                        <state key="normal" title="3">
-                                            <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                                        </state>
-                                        <userDefinedRuntimeAttributes>
-                                            <userDefinedRuntimeAttribute type="number" keyPath="cornerRadius">
-                                                <real key="value" value="10"/>
-                                            </userDefinedRuntimeAttribute>
-                                        </userDefinedRuntimeAttributes>
-                                    </button>
-                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="CcY-E9-ucH" customClass="BorderedButtons" customModule="fifaCoinManager" customModuleProvider="target">
-                                        <rect key="frame" x="95" y="247" width="93" height="81"/>
-                                        <color key="backgroundColor" red="0.50921398809999996" green="0.29289099880000002" blue="0.72457901550000003" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                        <constraints>
-                                            <constraint firstAttribute="height" constant="81" id="gVI-eh-3jM"/>
-                                            <constraint firstAttribute="width" constant="93" id="hZf-gz-rJ2"/>
-                                        </constraints>
-                                        <fontDescription key="fontDescription" name="AppleSDGothicNeo-Regular" family="Apple SD Gothic Neo" pointSize="40"/>
-                                        <state key="normal" title="2">
-                                            <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                                        </state>
-                                        <userDefinedRuntimeAttributes>
-                                            <userDefinedRuntimeAttribute type="number" keyPath="cornerRadius">
-                                                <real key="value" value="10"/>
-                                            </userDefinedRuntimeAttribute>
-                                        </userDefinedRuntimeAttributes>
+                                        <connections>
+                                            <action selector="numberPressed:" destination="KhM-t0-2yZ" eventType="touchUpInside" id="SEG-WJ-WaD"/>
+                                        </connections>
                                     </button>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="lpi-CS-wmi" customClass="BorderedButtons" customModule="fifaCoinManager" customModuleProvider="target">
                                         <rect key="frame" x="1" y="247" width="93" height="81"/>
@@ -438,6 +209,286 @@
                                                 <real key="value" value="10"/>
                                             </userDefinedRuntimeAttribute>
                                         </userDefinedRuntimeAttributes>
+                                        <connections>
+                                            <action selector="numberPressed:" destination="KhM-t0-2yZ" eventType="touchUpInside" id="POY-9g-8SY"/>
+                                        </connections>
+                                    </button>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="CcY-E9-ucH" customClass="BorderedButtons" customModule="fifaCoinManager" customModuleProvider="target">
+                                        <rect key="frame" x="95" y="247" width="93" height="81"/>
+                                        <color key="backgroundColor" red="0.50921398809999996" green="0.29289099880000002" blue="0.72457901550000003" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                        <constraints>
+                                            <constraint firstAttribute="height" constant="81" id="gVI-eh-3jM"/>
+                                            <constraint firstAttribute="width" constant="93" id="hZf-gz-rJ2"/>
+                                        </constraints>
+                                        <fontDescription key="fontDescription" name="AppleSDGothicNeo-Regular" family="Apple SD Gothic Neo" pointSize="40"/>
+                                        <state key="normal" title="2">
+                                            <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                        </state>
+                                        <userDefinedRuntimeAttributes>
+                                            <userDefinedRuntimeAttribute type="number" keyPath="cornerRadius">
+                                                <real key="value" value="10"/>
+                                            </userDefinedRuntimeAttribute>
+                                        </userDefinedRuntimeAttributes>
+                                        <connections>
+                                            <action selector="numberPressed:" destination="KhM-t0-2yZ" eventType="touchUpInside" id="Zgz-4C-b9y"/>
+                                        </connections>
+                                    </button>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="QoB-Kr-Tyi" customClass="BorderedButtons" customModule="fifaCoinManager" customModuleProvider="target">
+                                        <rect key="frame" x="189" y="247" width="93" height="81"/>
+                                        <color key="backgroundColor" red="0.50921398809999996" green="0.29289099880000002" blue="0.72457901550000003" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                        <constraints>
+                                            <constraint firstAttribute="width" constant="93" id="JQo-sY-SZM"/>
+                                            <constraint firstAttribute="height" constant="81" id="m4V-GQ-01R"/>
+                                        </constraints>
+                                        <fontDescription key="fontDescription" name="AppleSDGothicNeo-Regular" family="Apple SD Gothic Neo" pointSize="40"/>
+                                        <state key="normal" title="3">
+                                            <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                        </state>
+                                        <userDefinedRuntimeAttributes>
+                                            <userDefinedRuntimeAttribute type="number" keyPath="cornerRadius">
+                                                <real key="value" value="10"/>
+                                            </userDefinedRuntimeAttribute>
+                                        </userDefinedRuntimeAttributes>
+                                        <connections>
+                                            <action selector="numberPressed:" destination="KhM-t0-2yZ" eventType="touchUpInside" id="I2p-oR-CQD"/>
+                                        </connections>
+                                    </button>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Z33-jG-U3C" customClass="BorderedButtons" customModule="fifaCoinManager" customModuleProvider="target">
+                                        <rect key="frame" x="1" y="165" width="93" height="81"/>
+                                        <color key="backgroundColor" red="0.50921398809999996" green="0.29289099880000002" blue="0.72457901550000003" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                        <constraints>
+                                            <constraint firstAttribute="width" constant="93" id="TFA-wT-hHe"/>
+                                            <constraint firstAttribute="height" constant="81" id="n02-BA-hqE"/>
+                                        </constraints>
+                                        <fontDescription key="fontDescription" name="AppleSDGothicNeo-Regular" family="Apple SD Gothic Neo" pointSize="40"/>
+                                        <state key="normal" title="4">
+                                            <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                        </state>
+                                        <userDefinedRuntimeAttributes>
+                                            <userDefinedRuntimeAttribute type="number" keyPath="cornerRadius">
+                                                <real key="value" value="10"/>
+                                            </userDefinedRuntimeAttribute>
+                                        </userDefinedRuntimeAttributes>
+                                        <connections>
+                                            <action selector="numberPressed:" destination="KhM-t0-2yZ" eventType="touchUpInside" id="guB-dx-Xyn"/>
+                                        </connections>
+                                    </button>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="LTH-ls-rp3" customClass="BorderedButtons" customModule="fifaCoinManager" customModuleProvider="target">
+                                        <rect key="frame" x="95" y="165" width="93" height="81"/>
+                                        <color key="backgroundColor" red="0.50921398809999996" green="0.29289099880000002" blue="0.72457901550000003" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                        <constraints>
+                                            <constraint firstAttribute="width" constant="93" id="FTP-Ed-s6x"/>
+                                            <constraint firstAttribute="height" constant="81" id="lGq-Lw-dWT"/>
+                                        </constraints>
+                                        <fontDescription key="fontDescription" name="AppleSDGothicNeo-Regular" family="Apple SD Gothic Neo" pointSize="40"/>
+                                        <state key="normal" title="5">
+                                            <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                        </state>
+                                        <userDefinedRuntimeAttributes>
+                                            <userDefinedRuntimeAttribute type="number" keyPath="cornerRadius">
+                                                <real key="value" value="10"/>
+                                            </userDefinedRuntimeAttribute>
+                                        </userDefinedRuntimeAttributes>
+                                        <connections>
+                                            <action selector="numberPressed:" destination="KhM-t0-2yZ" eventType="touchUpInside" id="3U3-wD-aun"/>
+                                        </connections>
+                                    </button>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="xA2-la-U4Y" customClass="BorderedButtons" customModule="fifaCoinManager" customModuleProvider="target">
+                                        <rect key="frame" x="189" y="165" width="93" height="81"/>
+                                        <color key="backgroundColor" red="0.50921398809999996" green="0.29289099880000002" blue="0.72457901550000003" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                        <constraints>
+                                            <constraint firstAttribute="height" constant="81" id="BiB-Po-X1e"/>
+                                            <constraint firstAttribute="width" constant="93" id="sG1-4C-nog"/>
+                                        </constraints>
+                                        <fontDescription key="fontDescription" name="AppleSDGothicNeo-Regular" family="Apple SD Gothic Neo" pointSize="40"/>
+                                        <state key="normal" title="6">
+                                            <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                        </state>
+                                        <userDefinedRuntimeAttributes>
+                                            <userDefinedRuntimeAttribute type="number" keyPath="cornerRadius">
+                                                <real key="value" value="10"/>
+                                            </userDefinedRuntimeAttribute>
+                                        </userDefinedRuntimeAttributes>
+                                        <connections>
+                                            <action selector="numberPressed:" destination="KhM-t0-2yZ" eventType="touchUpInside" id="6HX-5j-T6E"/>
+                                        </connections>
+                                    </button>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="t1Y-lJ-TpV" customClass="BorderedButtons" customModule="fifaCoinManager" customModuleProvider="target">
+                                        <rect key="frame" x="1" y="83" width="93" height="81"/>
+                                        <color key="backgroundColor" red="0.50921398809999996" green="0.29289099880000002" blue="0.72457901550000003" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                        <constraints>
+                                            <constraint firstAttribute="height" constant="81" id="eHB-nI-TzW"/>
+                                            <constraint firstAttribute="width" constant="93" id="ooe-I1-Ind"/>
+                                        </constraints>
+                                        <fontDescription key="fontDescription" name="AppleSDGothicNeo-Regular" family="Apple SD Gothic Neo" pointSize="40"/>
+                                        <state key="normal" title="7">
+                                            <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                        </state>
+                                        <userDefinedRuntimeAttributes>
+                                            <userDefinedRuntimeAttribute type="number" keyPath="cornerRadius">
+                                                <real key="value" value="10"/>
+                                            </userDefinedRuntimeAttribute>
+                                        </userDefinedRuntimeAttributes>
+                                        <connections>
+                                            <action selector="numberPressed:" destination="KhM-t0-2yZ" eventType="touchUpInside" id="7py-GX-vFp"/>
+                                        </connections>
+                                    </button>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="nwN-mt-C4l" customClass="BorderedButtons" customModule="fifaCoinManager" customModuleProvider="target">
+                                        <rect key="frame" x="95" y="83" width="93" height="81"/>
+                                        <color key="backgroundColor" red="0.50921398809999996" green="0.29289099880000002" blue="0.72457901550000003" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                        <constraints>
+                                            <constraint firstAttribute="width" constant="93" id="8mp-vG-1de"/>
+                                            <constraint firstAttribute="height" constant="81" id="GcB-Jv-t3I"/>
+                                        </constraints>
+                                        <fontDescription key="fontDescription" name="AppleSDGothicNeo-Regular" family="Apple SD Gothic Neo" pointSize="40"/>
+                                        <state key="normal" title="8">
+                                            <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                        </state>
+                                        <userDefinedRuntimeAttributes>
+                                            <userDefinedRuntimeAttribute type="number" keyPath="cornerRadius">
+                                                <real key="value" value="10"/>
+                                            </userDefinedRuntimeAttribute>
+                                        </userDefinedRuntimeAttributes>
+                                        <connections>
+                                            <action selector="numberPressed:" destination="KhM-t0-2yZ" eventType="touchUpInside" id="mXQ-11-zSr"/>
+                                        </connections>
+                                    </button>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Gbl-C3-zDm" customClass="BorderedButtons" customModule="fifaCoinManager" customModuleProvider="target">
+                                        <rect key="frame" x="189" y="83" width="93" height="81"/>
+                                        <color key="backgroundColor" red="0.50921398809999996" green="0.29289099880000002" blue="0.72457901550000003" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                        <constraints>
+                                            <constraint firstAttribute="width" constant="93" id="NaV-Kw-Aol"/>
+                                            <constraint firstAttribute="height" constant="81" id="RCG-OT-mkC"/>
+                                        </constraints>
+                                        <fontDescription key="fontDescription" name="AppleSDGothicNeo-Regular" family="Apple SD Gothic Neo" pointSize="40"/>
+                                        <state key="normal" title="9">
+                                            <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                        </state>
+                                        <userDefinedRuntimeAttributes>
+                                            <userDefinedRuntimeAttribute type="number" keyPath="cornerRadius">
+                                                <real key="value" value="10"/>
+                                            </userDefinedRuntimeAttribute>
+                                        </userDefinedRuntimeAttributes>
+                                        <connections>
+                                            <action selector="numberPressed:" destination="KhM-t0-2yZ" eventType="touchUpInside" id="E63-xV-P8G"/>
+                                        </connections>
+                                    </button>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="z9M-y9-ssB" customClass="BorderedButtons" customModule="fifaCoinManager" customModuleProvider="target">
+                                        <rect key="frame" x="1" y="1" width="93" height="81"/>
+                                        <color key="backgroundColor" red="0.55214085578778405" green="0.41539574075884966" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                        <constraints>
+                                            <constraint firstAttribute="width" constant="93" id="MAS-rU-0bI"/>
+                                            <constraint firstAttribute="height" constant="81" id="XFy-S2-Eul"/>
+                                        </constraints>
+                                        <fontDescription key="fontDescription" name="AppleSDGothicNeo-Regular" family="Apple SD Gothic Neo" pointSize="40"/>
+                                        <color key="tintColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                        <state key="normal" title="C"/>
+                                        <userDefinedRuntimeAttributes>
+                                            <userDefinedRuntimeAttribute type="number" keyPath="cornerRadius">
+                                                <real key="value" value="10"/>
+                                            </userDefinedRuntimeAttribute>
+                                        </userDefinedRuntimeAttributes>
+                                        <connections>
+                                            <action selector="clearButtonPressed:" destination="KhM-t0-2yZ" eventType="touchUpInside" id="Ugi-VQ-aUd"/>
+                                        </connections>
+                                    </button>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Eg7-Px-1Ec" customClass="BorderedButtons" customModule="fifaCoinManager" customModuleProvider="target">
+                                        <rect key="frame" x="95" y="1" width="93" height="81"/>
+                                        <color key="backgroundColor" red="0.55214085578778405" green="0.41539574075884966" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                        <constraints>
+                                            <constraint firstAttribute="height" constant="81" id="col-Wh-bVa"/>
+                                            <constraint firstAttribute="width" relation="greaterThanOrEqual" constant="93" id="lf7-Dc-Jmk"/>
+                                        </constraints>
+                                        <fontDescription key="fontDescription" name="AppleSDGothicNeo-Regular" family="Apple SD Gothic Neo" pointSize="40"/>
+                                        <color key="tintColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                        <state key="normal" title="+/-"/>
+                                        <userDefinedRuntimeAttributes>
+                                            <userDefinedRuntimeAttribute type="number" keyPath="cornerRadius">
+                                                <real key="value" value="10"/>
+                                            </userDefinedRuntimeAttribute>
+                                        </userDefinedRuntimeAttributes>
+                                        <connections>
+                                            <action selector="plusMinusButtonPressed:" destination="KhM-t0-2yZ" eventType="touchUpInside" id="qRW-fM-6cr"/>
+                                        </connections>
+                                    </button>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="UZO-Ue-M6l" customClass="BorderedButtons" customModule="fifaCoinManager" customModuleProvider="target">
+                                        <rect key="frame" x="189" y="1" width="93" height="81"/>
+                                        <color key="backgroundColor" red="0.55214085578778405" green="0.41539574075884966" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                        <constraints>
+                                            <constraint firstAttribute="height" constant="81" id="Ivx-jz-FMJ"/>
+                                            <constraint firstAttribute="width" constant="93" id="k1y-lX-M5U"/>
+                                        </constraints>
+                                        <fontDescription key="fontDescription" name="AppleSDGothicNeo-Regular" family="Apple SD Gothic Neo" pointSize="40"/>
+                                        <color key="tintColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                        <state key="normal" title="%"/>
+                                        <userDefinedRuntimeAttributes>
+                                            <userDefinedRuntimeAttribute type="number" keyPath="cornerRadius">
+                                                <real key="value" value="10"/>
+                                            </userDefinedRuntimeAttribute>
+                                        </userDefinedRuntimeAttributes>
+                                        <connections>
+                                            <action selector="percentageButtonPressed:" destination="KhM-t0-2yZ" eventType="touchUpInside" id="xGu-E1-diP"/>
+                                        </connections>
+                                    </button>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="jLz-fF-HMN" customClass="BorderedButtons" customModule="fifaCoinManager" customModuleProvider="target">
+                                        <rect key="frame" x="283" y="83" width="93" height="81"/>
+                                        <color key="backgroundColor" red="0.55214085578778405" green="0.41539574075884966" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                        <constraints>
+                                            <constraint firstAttribute="height" constant="81" id="AbH-h8-mjj"/>
+                                            <constraint firstAttribute="width" constant="93" id="Lxj-M1-CB4"/>
+                                        </constraints>
+                                        <fontDescription key="fontDescription" name="AppleSDGothicNeo-Regular" family="Apple SD Gothic Neo" pointSize="40"/>
+                                        <color key="tintColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                        <state key="normal" title="×"/>
+                                        <userDefinedRuntimeAttributes>
+                                            <userDefinedRuntimeAttribute type="number" keyPath="cornerRadius">
+                                                <real key="value" value="10"/>
+                                            </userDefinedRuntimeAttribute>
+                                        </userDefinedRuntimeAttributes>
+                                        <connections>
+                                            <action selector="equalitySignPressed:" destination="KhM-t0-2yZ" eventType="touchUpInside" id="qhz-yp-esT"/>
+                                            <action selector="twoOperandsSingPressed:" destination="KhM-t0-2yZ" eventType="touchUpInside" id="sSv-Ex-Vdb"/>
+                                        </connections>
+                                    </button>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="A1L-Sq-eza" customClass="BorderedButtons" customModule="fifaCoinManager" customModuleProvider="target">
+                                        <rect key="frame" x="283" y="165" width="93" height="81"/>
+                                        <color key="backgroundColor" red="0.55214085578778405" green="0.41539574075884966" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                        <constraints>
+                                            <constraint firstAttribute="height" constant="81" id="5hT-1f-alH"/>
+                                            <constraint firstAttribute="width" constant="93" id="KVb-h0-Kdj"/>
+                                        </constraints>
+                                        <fontDescription key="fontDescription" name="AppleSDGothicNeo-Regular" family="Apple SD Gothic Neo" pointSize="40"/>
+                                        <color key="tintColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                        <state key="normal" title="−"/>
+                                        <userDefinedRuntimeAttributes>
+                                            <userDefinedRuntimeAttribute type="number" keyPath="cornerRadius">
+                                                <real key="value" value="10"/>
+                                            </userDefinedRuntimeAttribute>
+                                        </userDefinedRuntimeAttributes>
+                                        <connections>
+                                            <action selector="equalitySignPressed:" destination="KhM-t0-2yZ" eventType="touchUpInside" id="yYZ-GQ-Y1b"/>
+                                            <action selector="twoOperandsSingPressed:" destination="KhM-t0-2yZ" eventType="touchUpInside" id="XkR-ll-ibK"/>
+                                        </connections>
+                                    </button>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="FCU-Ma-bOX" customClass="BorderedButtons" customModule="fifaCoinManager" customModuleProvider="target">
+                                        <rect key="frame" x="283" y="247" width="93" height="81"/>
+                                        <color key="backgroundColor" red="0.55214085578778405" green="0.41539574075884966" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                        <constraints>
+                                            <constraint firstAttribute="width" constant="93" id="8uZ-Bw-Klp"/>
+                                            <constraint firstAttribute="height" constant="81" id="V2E-HQ-hKD"/>
+                                        </constraints>
+                                        <fontDescription key="fontDescription" name="AppleSDGothicNeo-Regular" family="Apple SD Gothic Neo" pointSize="40"/>
+                                        <color key="tintColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                        <state key="normal" title="+"/>
+                                        <userDefinedRuntimeAttributes>
+                                            <userDefinedRuntimeAttribute type="number" keyPath="cornerRadius">
+                                                <real key="value" value="10"/>
+                                            </userDefinedRuntimeAttribute>
+                                        </userDefinedRuntimeAttributes>
+                                        <connections>
+                                            <action selector="equalitySignPressed:" destination="KhM-t0-2yZ" eventType="touchUpInside" id="bdi-z2-7Sh"/>
+                                            <action selector="twoOperandsSingPressed:" destination="KhM-t0-2yZ" eventType="touchUpInside" id="tb5-Ay-eu9"/>
+                                        </connections>
                                     </button>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="413-nv-j1p" customClass="BorderedButtons" customModule="fifaCoinManager" customModuleProvider="target">
                                         <rect key="frame" x="189" y="329" width="93" height="81"/>
@@ -454,6 +505,9 @@
                                                 <real key="value" value="10"/>
                                             </userDefinedRuntimeAttribute>
                                         </userDefinedRuntimeAttributes>
+                                        <connections>
+                                            <action selector="dotButtonPressed:" destination="KhM-t0-2yZ" eventType="touchUpInside" id="gW0-aP-zJw"/>
+                                        </connections>
                                     </button>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="7oF-vG-mJl" customClass="BorderedButtons" customModule="fifaCoinManager" customModuleProvider="target">
                                         <rect key="frame" x="283" y="329" width="93" height="81"/>
@@ -470,6 +524,9 @@
                                                 <real key="value" value="10"/>
                                             </userDefinedRuntimeAttribute>
                                         </userDefinedRuntimeAttributes>
+                                        <connections>
+                                            <action selector="equalitySignPressed:" destination="KhM-t0-2yZ" eventType="touchUpInside" id="AGm-2h-VMg"/>
+                                        </connections>
                                     </button>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="a7b-zJ-Adi" customClass="BorderedButtons" customModule="fifaCoinManager" customModuleProvider="target">
                                         <rect key="frame" x="283" y="1" width="93" height="81"/>
@@ -486,6 +543,10 @@
                                                 <real key="value" value="10"/>
                                             </userDefinedRuntimeAttribute>
                                         </userDefinedRuntimeAttributes>
+                                        <connections>
+                                            <action selector="equalitySignPressed:" destination="KhM-t0-2yZ" eventType="touchUpInside" id="mGn-4w-kWs"/>
+                                            <action selector="twoOperandsSingPressed:" destination="KhM-t0-2yZ" eventType="touchUpInside" id="LTd-Pg-g07"/>
+                                        </connections>
                                     </button>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" adjustsImageWhenDisabled="NO" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="nYR-bX-8Ou" customClass="BorderedButtons" customModule="fifaCoinManager" customModuleProvider="target">
                                         <rect key="frame" x="1" y="411" width="187" height="81"/>
@@ -501,6 +562,9 @@
                                                 <real key="value" value="10"/>
                                             </userDefinedRuntimeAttribute>
                                         </userDefinedRuntimeAttributes>
+                                        <connections>
+                                            <action selector="taxButtonPressed:" destination="KhM-t0-2yZ" eventType="touchUpInside" id="yrR-9b-C3r"/>
+                                        </connections>
                                     </button>
                                     <button opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="249" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" adjustsImageWhenDisabled="NO" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="O9Y-aw-huR" customClass="BorderedButtons" customModule="fifaCoinManager" customModuleProvider="target">
                                         <rect key="frame" x="189" y="411" width="187" height="81"/>
@@ -513,6 +577,9 @@
                                                 <real key="value" value="10"/>
                                             </userDefinedRuntimeAttribute>
                                         </userDefinedRuntimeAttributes>
+                                        <connections>
+                                            <action selector="moneyEquvalentButtonPressed:" destination="KhM-t0-2yZ" eventType="touchUpInside" id="web-89-d7g"/>
+                                        </connections>
                                     </button>
                                 </subviews>
                                 <constraints>
@@ -620,6 +687,9 @@
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="6nd-jI-xZB"/>
                     </view>
+                    <connections>
+                        <outlet property="displayResultLabel" destination="WbB-yR-mkW" id="8H1-cH-Le5"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="V26-xW-OJR" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
