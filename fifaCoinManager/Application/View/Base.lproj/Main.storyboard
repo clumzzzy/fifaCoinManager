@@ -4,14 +4,13 @@
     <dependencies>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="16087"/>
         <capability name="Safe area layout guides" minToolsVersion="9.0"/>
-        <capability name="collection view cell content view" minToolsVersion="11.0"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <scenes>
         <!--Main Info View Controller-->
         <scene sceneID="yDn-QR-8Ea">
             <objects>
-                <viewController id="lOg-EC-EzW" customClass="MainInfoViewController" customModule="fifaCoinManager" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController interfaceStyle="dark" id="lOg-EC-EzW" customClass="MainInfoViewController" customModule="fifaCoinManager" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="Lcy-lH-R9i">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -43,13 +42,13 @@
         <!--Accounts Table View Controller-->
         <scene sceneID="7kU-BC-DmB">
             <objects>
-                <tableViewController id="ZjF-jL-tEA" customClass="AccountsTableViewController" customModule="fifaCoinManager" customModuleProvider="target" sceneMemberID="viewController">
+                <tableViewController interfaceStyle="dark" id="ZjF-jL-tEA" customClass="AccountsTableViewController" customModule="fifaCoinManager" customModuleProvider="target" sceneMemberID="viewController">
                     <tableView key="view" clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="28" sectionFooterHeight="28" id="sRB-da-KnK">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
                         <prototypes>
-                            <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" reuseIdentifier="accountsCell" id="JcB-Kj-QK1">
+                            <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" reuseIdentifier="accountsCell" id="JcB-Kj-QK1" customClass="AccountsTableViewCell" customModule="fifaCoinManager" customModuleProvider="target">
                                 <rect key="frame" x="0.0" y="28" width="375" height="43.5"/>
                                 <autoresizingMask key="autoresizingMask"/>
                                 <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="JcB-Kj-QK1" id="iGe-EJ-Zlm">
@@ -57,7 +56,7 @@
                                     <autoresizingMask key="autoresizingMask"/>
                                 </tableViewCellContentView>
                                 <connections>
-                                    <segue destination="Tuc-Ef-8vS" kind="show" id="7g2-6k-GJ1"/>
+                                    <segue destination="okE-rj-iGv" kind="presentation" id="YAj-g3-Ldh"/>
                                 </connections>
                             </tableViewCell>
                         </prototypes>
@@ -80,45 +79,26 @@
             </objects>
             <point key="canvasLocation" x="2893" y="583"/>
         </scene>
-        <!--Full Account Collection View Controller-->
-        <scene sceneID="8RK-8v-D2R">
+        <!--View Controller-->
+        <scene sceneID="QUz-gw-oa4">
             <objects>
-                <collectionViewController id="Tuc-Ef-8vS" customClass="FullAccountCollectionViewController" customModule="fifaCoinManager" customModuleProvider="target" sceneMemberID="viewController">
-                    <collectionView key="view" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" dataMode="prototypes" id="VgK-a7-pro">
-                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                <viewController interfaceStyle="dark" id="TkW-ME-oHW" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="wre-sC-Vu5">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="647"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
-                        <collectionViewFlowLayout key="collectionViewLayout" automaticEstimatedItemSize="YES" minimumLineSpacing="10" minimumInteritemSpacing="10" id="e7Z-Cq-0dT">
-                            <size key="itemSize" width="128" height="128"/>
-                            <size key="headerReferenceSize" width="0.0" height="0.0"/>
-                            <size key="footerReferenceSize" width="0.0" height="0.0"/>
-                            <inset key="sectionInset" minX="0.0" minY="0.0" maxX="0.0" maxY="0.0"/>
-                        </collectionViewFlowLayout>
-                        <cells>
-                            <collectionViewCell opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" reuseIdentifier="accountInfoCollection" id="2Es-zm-GUe">
-                                <rect key="frame" x="0.0" y="0.0" width="128" height="128"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <collectionViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" insetsLayoutMarginsFromSafeArea="NO" id="vbz-yH-XsY">
-                                    <rect key="frame" x="0.0" y="0.0" width="128" height="128"/>
-                                    <autoresizingMask key="autoresizingMask"/>
-                                </collectionViewCellContentView>
-                            </collectionViewCell>
-                        </cells>
-                        <connections>
-                            <outlet property="dataSource" destination="Tuc-Ef-8vS" id="Htb-SO-5lh"/>
-                            <outlet property="delegate" destination="Tuc-Ef-8vS" id="GyX-KN-4lz"/>
-                        </connections>
-                    </collectionView>
-                    <navigationItem key="navigationItem" id="Tcp-gM-Zsb"/>
-                </collectionViewController>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="PiP-Co-lMC" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+                        <viewLayoutGuide key="safeArea" id="Nsb-TI-uyc"/>
+                    </view>
+                    <navigationItem key="navigationItem" id="kdO-oj-ldr"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="fJk-lX-omK" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="4123" y="583"/>
+            <point key="canvasLocation" x="4720.8000000000002" y="581.55922038980509"/>
         </scene>
         <!--Accounts list-->
         <scene sceneID="EUK-2o-ACx">
             <objects>
-                <navigationController automaticallyAdjustsScrollViewInsets="NO" id="ppb-yA-l8U" sceneMemberID="viewController">
+                <navigationController automaticallyAdjustsScrollViewInsets="NO" interfaceStyle="dark" id="ppb-yA-l8U" sceneMemberID="viewController">
                     <tabBarItem key="tabBarItem" title="Accounts list" image="list.dash" catalog="system" id="3U0-El-HR1"/>
                     <toolbarItems/>
                     <navigationBar key="navigationBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="goD-cq-Nla">
@@ -137,7 +117,7 @@
         <!--Tab Bar Controller-->
         <scene sceneID="so4-YN-eMN">
             <objects>
-                <tabBarController automaticallyAdjustsScrollViewInsets="NO" id="ceh-7k-xHK" sceneMemberID="viewController">
+                <tabBarController automaticallyAdjustsScrollViewInsets="NO" interfaceStyle="dark" id="ceh-7k-xHK" sceneMemberID="viewController">
                     <toolbarItems/>
                     <tabBar key="tabBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="GNC-5S-FCE">
                         <rect key="frame" x="0.0" y="0.0" width="1000" height="1000"/>
@@ -157,7 +137,7 @@
         <!--Calculator View Controller-->
         <scene sceneID="1lI-Uc-L9w">
             <objects>
-                <viewController id="KhM-t0-2yZ" customClass="CalculatorViewController" customModule="fifaCoinManager" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController interfaceStyle="dark" id="KhM-t0-2yZ" customClass="CalculatorViewController" customModule="fifaCoinManager" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="HHx-Pw-dKE">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="647"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -695,10 +675,10 @@
             </objects>
             <point key="canvasLocation" x="2192.8000000000002" y="-1006.1469265367317"/>
         </scene>
-        <!--Settings Table View Controller-->
+        <!--Settings-->
         <scene sceneID="oxD-gL-uEy">
             <objects>
-                <tableViewController id="eB1-7h-cwJ" customClass="SettingsTableViewController" customModule="fifaCoinManager" customModuleProvider="target" sceneMemberID="viewController">
+                <tableViewController interfaceStyle="dark" id="eB1-7h-cwJ" customClass="SettingsTableViewController" customModule="fifaCoinManager" customModuleProvider="target" sceneMemberID="viewController">
                     <tableView key="view" clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="28" sectionFooterHeight="28" id="El2-TO-Fb1">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="647"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -718,7 +698,7 @@
                             <outlet property="delegate" destination="eB1-7h-cwJ" id="9Mz-KD-cFv"/>
                         </connections>
                     </tableView>
-                    <navigationItem key="navigationItem" id="uZf-Dh-Nul"/>
+                    <navigationItem key="navigationItem" title="Settings" id="uZf-Dh-Nul"/>
                 </tableViewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="KO9-x5-NlV" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
@@ -727,12 +707,18 @@
         <!--Information-->
         <scene sceneID="sbT-0f-31z">
             <objects>
-                <navigationController automaticallyAdjustsScrollViewInsets="NO" id="uxW-xc-7j0" sceneMemberID="viewController">
+                <navigationController automaticallyAdjustsScrollViewInsets="NO" interfaceStyle="dark" id="uxW-xc-7j0" sceneMemberID="viewController">
                     <tabBarItem key="tabBarItem" title="Information" image="info.circle" catalog="system" springLoaded="YES" id="GAe-5i-j97"/>
                     <toolbarItems/>
                     <navigationBar key="navigationBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="7Eo-Sg-x04">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="44"/>
                         <autoresizingMask key="autoresizingMask"/>
+                        <textAttributes key="titleTextAttributes">
+                            <fontDescription key="fontDescription" style="UICTFontTextStyleTitle1"/>
+                        </textAttributes>
+                        <textAttributes key="largeTitleTextAttributes">
+                            <fontDescription key="fontDescription" name="AppleSDGothicNeo-Light" family="Apple SD Gothic Neo" pointSize="30"/>
+                        </textAttributes>
                     </navigationBar>
                     <nil name="viewControllers"/>
                     <connections>
@@ -746,10 +732,10 @@
         <!--Navigation Controller-->
         <scene sceneID="8aM-5K-TZo">
             <objects>
-                <navigationController automaticallyAdjustsScrollViewInsets="NO" id="GE9-kq-6V9" sceneMemberID="viewController">
+                <navigationController automaticallyAdjustsScrollViewInsets="NO" interfaceStyle="dark" id="GE9-kq-6V9" sceneMemberID="viewController">
                     <toolbarItems/>
-                    <navigationBar key="navigationBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="L2T-U0-nhO">
-                        <rect key="frame" x="0.0" y="0.0" width="375" height="56"/>
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" largeTitles="YES" id="L2T-U0-nhO">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="108"/>
                         <autoresizingMask key="autoresizingMask"/>
                     </navigationBar>
                     <nil name="viewControllers"/>
@@ -760,6 +746,24 @@
                 <placeholder placeholderIdentifier="IBFirstResponder" id="gyN-a4-ipk" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="4160.8695652173919" y="-1005.1339285714286"/>
+        </scene>
+        <!--Navigation Controller-->
+        <scene sceneID="GBh-7s-UBe">
+            <objects>
+                <navigationController automaticallyAdjustsScrollViewInsets="NO" interfaceStyle="dark" toolbarHidden="NO" id="okE-rj-iGv" sceneMemberID="viewController">
+                    <toolbarItems/>
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" largeTitles="YES" id="xBw-QC-7jf">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="108"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <nil name="viewControllers"/>
+                    <connections>
+                        <segue destination="TkW-ME-oHW" kind="relationship" relationship="rootViewController" id="IB0-P8-wMb"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="I9s-jD-ctU" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="3781.5999999999999" y="581.55922038980509"/>
         </scene>
     </scenes>
     <resources>
